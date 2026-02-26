@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+/* src/styles.css */
+@import 'tailwindcss';
+:root {
+  --text-main: #1a1a1a;
+  --text-muted: #555555;
+  --text-accent: #c5a028;
+--color-creamy-latte: #F5EBE0
+  --price-tag-bg: #f4f4f4;
+  --font-family-header: 'Inter', sans-serif;
+}
+@theme {
+  /* The soft, sandy beige from the wooden table */
+  --color-brew-bg: #EBE7E0;
+
+  /* The dark brown from the espresso layers */
+  --color-brew-dark: #4A342E;
+
+  /* The warm amber/caramel from the iced coffee */
+  --color-brew-gold: #C67C4E;
+
+  /* Clean white for the cards (like the foam art) */
+  --color-brew-card: #FFFFFF;
+
+  /* Soft taupe for secondary text */
+  --color-brew-muted: #9D8C7C;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;               
+  height: 4px;              
+  
+}
+
+
+::-webkit-scrollbar-track {
+  background: transparent;  
+  margin: 10px;             
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3d2b1f;      
+  border-radius: 20px;      
+  border: 2px solid #fdfcf7; 
+  
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8b0000;      
+  
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
