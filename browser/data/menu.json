@@ -1,0 +1,363 @@
+{
+  "info": {
+    "name": "BREW Coffee House",
+    "tagline": "Where The Little Moments are Treasured",
+    "hours": {
+      "daily": "7:00am - 12:00am",
+      "friday": "8:00am - 12:30pm / 1:30pm - 12:00am"
+    },
+    "contact": {
+      "phone": "077580515*"
+    }
+  },
+  "menu": [
+    {
+      "id": "f1",
+      "name": "Mini Yummy Pancakes",
+      "description": "Buttermilk pancakes served with whipped cream, fresh strawberries and sprinkles.",
+      "price": "3.00",
+      "category": "Kids Breakfast",
+      "type": "food",
+      "image_url": "breakfast/mini-pancakes.png"
+    },
+    {
+      "id": "f2",
+      "name": "Happy Egg Meal",
+      "description": "Sourdough bread, egg, fresh cucumbers, cherry tomatoes, and grilled halloumi.",
+      "price": "3.00",
+      "category": "Kids Breakfast",
+      "type": "food",
+      "image_url": "breakfast/happy-egg-meal.png"
+    },
+    {
+      "id": "f3",
+      "name": "Cream Cheese Zest",
+      "description": "Toasted sourdough with cream cheese, capers, fresh onion, and lemon zest.",
+      "price": "3.75",
+      "category": "Breakfast",
+      "type": "food",
+      "image_url": "breakfast/cream-cheese-zest.png"
+    },
+    {
+      "id": "f4",
+      "name": "Oatmeal Bowl",
+      "description": "Oats, milk, and yogurt with apple, lychee, strawberry, banana, coconut, granola, tahini, and honey.",
+      "price": "3.75",
+      "category": "Breakfast",
+      "type": "food",
+      "image_url": "breakfast/oatmeal-bowl.png"
+    },
+    {
+      "id": "f5",
+      "name": "Peanut Butter & Jam",
+      "description": "Peanut butter and jam on sourdough with granola, strawberries, banana, and cranberries.",
+      "price": "3.50",
+      "category": "Breakfast",
+      "type": "food",
+      "image_url": "breakfast/peanut-butter-jam.png"
+    },
+    {
+      "id": "f6",
+      "name": "Avo Toast",
+      "description": "Sourdough with sour cream, cream cheese, smashed avocado, pomegranate and pumpkin seeds.",
+      "price": "4.00",
+      "category": "Breakfast",
+      "type": "food",
+      "image_url": "breakfast/avo-toast.png"
+    },
+    {
+      "id": "f7",
+      "name": "Halloumi Toast",
+      "description": "Sourdough with fresh basil, grilled tomatoes, grilled halloumi, and oregano.",
+      "price": "4.50",
+      "category": "Breakfast",
+      "type": "food",
+      "image_url": "breakfast/halloumi-toast.png"
+    },
+    {
+      "id": "f8",
+      "name": "Cheese Crumble Croissant",
+      "description": "Filled with Circassian cheese, caramelized onions, walnuts, mustard and chili flakes.",
+      "price": "3.75",
+      "category": "Croissants",
+      "type": "food",
+      "image_url": "breakfast/cheese-crumble-croissant.png"
+    },
+    {
+      "id": "f9",
+      "name": "Turkey Croissant",
+      "description": "Filled with turkey, cheese, tomato, mayo, mustard, and dried figs.",
+      "price": "3.75",
+      "category": "Croissants",
+      "type": "food",
+      "image_url": "breakfast/turkey-croissant.png"
+    },
+    {
+      "id": "f10",
+      "name": "Pancake",
+      "description": "Buttermilk pancake with banana, strawberries, and maple syrup.",
+      "price": "3.75",
+      "category": "Breakfast",
+      "type": "food",
+      "image_url": "breakfast/pancake.png"
+    },
+    {
+      "id": "f11",
+      "name": "Club Toast",
+      "description": "Sourdough with cheddar, roast beef, sunny-side-up eggs (2), sun dried tomatoes and chili flakes.",
+      "price": "4.50",
+      "category": "Breakfast",
+      "type": "food",
+      "image_url": "breakfast/club-toast.png"
+    },
+    {
+      "id": "f12",
+      "name": "AvoBeet Scrambled",
+      "description": "Sourdough with beets, scrambled eggs (3), pumpkin seeds, and sweet paprika.",
+      "price": "4.50",
+      "category": "Breakfast",
+      "type": "food",
+      "image_url": "breakfast/avobeet-scrambled.png"
+    },
+    {
+      "id": "f13",
+      "name": "French Toast",
+      "description": "Brioche in cinnamon-milk blend topped with blueberries and strawberries.",
+      "price": "3.75",
+      "category": "Breakfast",
+      "type": "food",
+      "image_url": "breakfast/french-toast.png"
+    },
+    {
+      "id": "f14",
+      "name": "Scrambled Egg",
+      "description": "Sourdough with spinach, scrambled eggs (3), sweet paprika, and pumpkin seeds.",
+      "price": "4.50",
+      "category": "Breakfast",
+      "type": "food",
+      "image_url": "breakfast/scrambled-egg.png"
+    },
+    {
+      "id": "f15",
+      "name": "Spinach Omlette",
+      "description": "Sourdough with omelet (2 eggs), mushrooms, spinach, Gouda, pumpkin seeds and paprika.",
+      "price": "4.50",
+      "category": "Breakfast",
+      "type": "food",
+      "image_url": "breakfast/spinach-omlette.png"
+    },
+    {
+      "id": "d1",
+      "name": "Espresso",
+      "description": "Rich and intense coffee shot.",
+      "prices": { "m": "2.00", "l": "3.20" },
+      "category": "Hot Coffee",
+      "type": "drink",
+      "image_url": "drinks/espresso-double.png"
+    },
+    {
+      "id": "d2",
+      "name": "American Coffee",
+      "description": "Classic brewed coffee.",
+      "prices": { "m": "2.80", "l": "3.20" },
+      "category": "Hot Coffee",
+      "type": "drink",
+      "image_url": "drinks/american.png"
+    },
+    {
+      "id": "d3",
+      "name": "Americano",
+      "description": "Espresso diluted with hot water.",
+      "prices": { "m": "3.00", "l": "3.50" },
+      "category": "Hot Coffee",
+      "type": "drink",
+      "image_url": "drinks/american.png"
+    },
+    {
+      "id": "d4",
+      "name": "Latte",
+      "description": "Espresso with steamed milk and a light layer of foam.",
+      "prices": { "m": "3.00", "l": "3.50" },
+      "category": "Hot Coffee",
+      "type": "drink",
+      "image_url": "drinks/latte.png"
+    },
+    {
+      "id": "d5",
+      "name": "Cappuccino",
+      "description": "Espresso with equal parts steamed milk and foam.",
+      "prices": { "m": "2.80", "l": null },
+      "category": "Hot Coffee",
+      "type": "drink",
+      "image_url": "drinks/cappuccino.png"
+    },
+    {
+      "id": "d6",
+      "name": "Flat White",
+      "description": "Espresso with microfoam.",
+      "prices": { "m": "3.50", "l": "3.90" },
+      "category": "Hot Coffee",
+      "type": "drink",
+      "image_url": "drinks/flat-white.png"
+    },
+    {
+      "id": "d7",
+      "name": "Mocha / White Mocha",
+      "description": "Espresso with chocolate and steamed milk.",
+      "prices": { "m": "3.50", "l": "3.90" },
+      "category": "Hot Coffee",
+      "type": "drink",
+      "image_url": "drinks/white-mocha.jpg"
+    },
+    {
+      "id": "d8",
+      "name": "Caramel Macchiato",
+      "description": "Espresso with vanilla and caramel drizzle.",
+      "prices": { "m": "3.50", "l": "3.90" },
+      "category": "Hot Coffee",
+      "type": "drink",
+      "image_url": "drinks/macchiato.jpg"
+    },
+    {
+      "id": "d9",
+      "name": "Matcha (Tea/Latte)",
+      "description": "Premium Japanese green tea.",
+      "prices": { "m": "3.50", "l": "3.90" },
+      "category": "Hot Tea",
+      "type": "drink",
+      "image_url": "drinks/matcha.jpg"
+    },
+    {
+      "id": "d10",
+      "name": "Hot Chocolate",
+      "description": "Rich chocolate with steamed milk.",
+      "prices": { "m": "3.00", "l": "3.40" },
+      "category": "Hot Drinks",
+      "type": "drink",
+      "image_url": "drinks/hot-chocolate.png"
+    },
+    {
+      "id": "d11",
+      "name": "Chai Latte",
+      "description": "Spiced tea concentrate with steamed milk.",
+      "prices": { "m": "3.00", "l": "3.50" },
+      "category": "Hot Tea",
+      "type": "drink",
+      "image_url": "drinks/tea.jpg"
+    },
+    {
+      "id": "d12",
+      "name": "Tea",
+      "description": "Selection of premium loose leaf teas.",
+      "prices": { "m": "2.50", "l": null },
+      "category": "Hot Tea",
+      "type": "drink",
+      "image_url": "drinks/tea.jpg"
+    },
+    {
+      "id": "d13",
+      "name": "Iced Americano",
+      "description": "Espresso served over ice and water.",
+      "prices": { "m": "2.80", "l": "3.20" },
+      "category": "Cold Coffee",
+      "type": "drink",
+      "image_url": "drinks/iced-americano.png"
+    },
+    {
+      "id": "d14",
+      "name": "Cold Brew",
+      "description": "Slow-steeped cold coffee.",
+      "prices": { "m": "3.50", "l": null },
+      "category": "Cold Coffee",
+      "type": "drink",
+      "image_url": "drinks/cold-brew.png"
+    },
+    {
+      "id": "d15",
+      "name": "Iced Latte",
+      "description": "Espresso and milk served over ice.",
+      "prices": { "m": "3.00", "l": "3.50" },
+      "category": "Cold Coffee",
+      "type": "drink",
+      "image_url": "drinks/latte.png"
+    },
+    {
+      "id": "d16",
+      "name": "Iced Shaken",
+      "description": "Espresso shaken with ice and flavor.",
+      "prices": { "m": "3.50", "l": "3.90" },
+      "category": "Cold Coffee",
+      "type": "drink",
+      "image_url": "drinks/iced-shaken.png"
+    },
+    {
+      "id": "d17",
+      "name": "Iced Mocha / White Mocha",
+      "description": "Iced espresso with chocolate milk.",
+      "prices": { "m": "3.50", "l": "3.90" },
+      "category": "Cold Coffee",
+      "type": "drink",
+      "image_url": "drinks/white-mocha.jpg"
+    },
+    {
+      "id": "d18",
+      "name": "Iced Caramel Macchiato",
+      "description": "Iced vanilla latte with caramel drizzle.",
+      "prices": { "m": "3.50", "l": "3.90" },
+      "category": "Cold Coffee",
+      "type": "drink",
+      "image_url": "drinks/macchiato.jpg"
+    },
+    {
+      "id": "d19",
+      "name": "Iced Tea",
+      "description": "Brewed tea served over ice.",
+      "prices": { "m": "2.90", "l": "3.30" },
+      "category": "Cold Drinks",
+      "type": "drink",
+      "image_url": "drinks/iced-tea.png"
+    },
+    {
+      "id": "d20",
+      "name": "Fresh Juice",
+      "description": "Freshly squeezed seasonal juice.",
+      "prices": { "m": "3.00", "l": "3.50" },
+      "category": "Cold Drinks",
+      "type": "drink",
+      "image_url": "drinks/orange-juice.jpg"
+    },
+    {
+      "id": "d21",
+      "name": "Sparkling Drinks",
+      "description": "Refreshing sparkling beverages.",
+      "prices": { "m": "3.25", "l": "3.60" },
+      "category": "Cold Drinks",
+      "type": "drink",
+      "image_url": "drinks/sparkling-drinks.jpg"
+    },
+    {
+      "id": "d22",
+      "name": "Frappe",
+      "description": "Blended ice coffee drink.",
+      "prices": { "m": "3.75", "l": "4.00" },
+      "category": "Cold Drinks",
+      "type": "drink",
+      "image_url": "drinks/frappe.png"
+    },
+    {
+      "id": "d23",
+      "name": "Smoothies",
+      "description": "Blended fruit and yogurt.",
+      "prices": { "m": "3.75", "l": "4.00" },
+      "category": "Cold Drinks",
+      "type": "drink",
+      "image_url": "drinks/smoothies.jpg"
+    }
+  ],
+  "add_ons": [
+    { "item": "Milk Alternatives", "price": "0.90" },
+    { "item": "Extra Shot", "price": "0.50" },
+    { "item": "Whipped Cream", "price": "0.50" },
+    { "item": "Flavour", "price": "0.50" }
+  ]
+}
